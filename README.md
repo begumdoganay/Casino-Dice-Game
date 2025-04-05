@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🎲 Dicee Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Dicee Game is a simple two-player dice rolling game where each player rolls a die, and the one with the higher number wins. If both players roll the same number, the game results in a draw.
 
-## Available Scripts
+You can use it for a **Toss**.
 
-In the project directory, you can run:
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-### `npm start`
+## 📜 Features
+- Generates random dice rolls for both players.
+- Dynamically updates the dice face based on the rolled number.
+- Displays the winner or a draw message based on the results.
+- Simple and intuitive UI with interactive elements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🕹️ How to Play
+1. Open the `index.html` file in a web browser.
+2. Click the **Roll** button.
+3. The dice for both players will be rolled randomly.
+4. The winner will be displayed based on the dice values.
+5. Click the button again to play another round.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
+```
+/ Dicee-Game
+│── index.html  (Main HTML file)
+│── dicee.css   (Stylesheet)
+│── dicee.js    (Game logic)
+```
 
-### `npm test`
+## 💻 Game Logic
+- The `roll()` function generates two random numbers between 1 and 6 for each player.
+- The `makeDice()` function determines the correct dice face to display.
+- The winner is determined by comparing both players' dice rolls.
+- The result is updated dynamically on the webpage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎮 Installation and Usage
+1. Clone the repository or download the project files.
+2. Open `index.html` in a browser.
+3. Click the **Roll** button to start playing.
 
-### `npm run build`
+## 🚀 Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Click here to play **Dicee**](https://begumdoganay.github.io/Dicee/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 👤 Author
+Developed by **Begum DOGANAY**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📝 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is open-source and free to use.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy the game! 🎲
